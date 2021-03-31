@@ -41,13 +41,13 @@ cd TeamB
 git init
 git remote add origin https://github.com/uni0912/TeamB.git
 git pull origin main
-git branch -U main
+git branch -u main
 cd ..
 cd TeamA
 git init
 git remote add origin https://github.com/sammyc1394/myProject.git
 git pull origin main
-git branch -U main
+git branch -u main
 cd ..
 cd JavaProject
 git init
@@ -58,5 +58,4 @@ cd myFiles
 git init
 git remote add origin https://github.com/KyuseokKim/MyFiles.git
 git pull origin main
-git branch -U main
 cd ..
