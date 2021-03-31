@@ -9,8 +9,9 @@ mkdir Youtube
 mkdir Python
 mkdir JavaProject
 mkdir TeamB
-mkdir TeamA
+mkdir Realestate
 mkdir myFiles
+mkdir TeamA
 
 cd KopoProject
 git init
@@ -43,7 +44,7 @@ git remote add origin https://github.com/uni0912/TeamB.git
 git pull origin main
 git branch -u main
 cd ..
-cd TeamA
+cd Realestate
 git init
 git remote add origin https://github.com/sammyc1394/myProject.git
 git pull origin main
@@ -57,5 +58,10 @@ cd ..
 cd myFiles
 git init
 git remote add origin https://github.com/KyuseokKim/MyFiles.git
+git pull origin main
+cd ..
+cd TeamA
+git init
+git remote add origin https://github.com/kopo24/Test1.git
 git pull origin main
 cd ..
